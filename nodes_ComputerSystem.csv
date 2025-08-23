@@ -1,0 +1,151 @@
+instance_id,name,make,model,height_u,environment,role,os
+CS-0001,Server-001,Lenovo,R640,1,PROD,Backup,Windows Server 2022
+CS-0002,Server-002,Cisco,SYS-6049P,4,DEV,Backup,Windows Server 2022
+CS-0003,Server-003,Supermicro,SR650,2,QA,Database,RHEL 9
+CS-0004,Server-004,Cisco,R640,1,DEV,Database,RHEL 9
+CS-0005,Server-005,HPE,R740xd,1,PROD,App,RHEL 9
+CS-0006,Server-006,Supermicro,SR650,4,QA,Database,RHEL 9
+CS-0007,Server-007,HPE,DL380,4,TEST,ML,RHEL 9
+CS-0008,Server-008,HPE,DL380,4,DEV,ML,RHEL 9
+CS-0009,Server-009,Cisco,R740xd,4,DEV,Database,Ubuntu 22.04
+CS-0010,Server-010,Dell,R640,1,TEST,Backup,Ubuntu 24.04
+CS-0011,Server-011,Supermicro,R640,2,TEST,ML,Ubuntu 24.04
+CS-0012,Server-012,Cisco,SYS-6049P,2,QA,Web,RHEL 9
+CS-0013,Server-013,Supermicro,DL380,4,TEST,Web,RHEL 9
+CS-0014,Server-014,HPE,SYS-6049P,4,PROD,Database,RHEL 9
+CS-0015,Server-015,HPE,SR650,4,QA,Database,Ubuntu 22.04
+CS-0016,Server-016,Cisco,SR650,4,QA,Web,Windows Server 2022
+CS-0017,Server-017,Lenovo,SR650,2,TEST,Web,Ubuntu 22.04
+CS-0018,Server-018,Lenovo,SR650,4,QA,Database,Windows Server 2022
+CS-0019,Server-019,Cisco,R640,2,PROD,Database,Ubuntu 24.04
+CS-0020,Server-020,Lenovo,R640,2,PROD,Backup,Windows Server 2022
+CS-0021,Server-021,Supermicro,R640,1,TEST,Backup,Windows Server 2022
+CS-0022,Server-022,Supermicro,R640,1,TEST,Backup,Ubuntu 22.04
+CS-0023,Server-023,Lenovo,SR650,4,QA,Web,RHEL 9
+CS-0024,Server-024,Cisco,R740xd,4,DEV,Database,RHEL 9
+CS-0025,Server-025,Cisco,SR650,1,DEV,Web,Windows Server 2022
+CS-0026,Server-026,Dell,R740xd,2,TEST,Backup,Ubuntu 24.04
+CS-0027,Server-027,Supermicro,SR650,2,DEV,ML,Ubuntu 22.04
+CS-0028,Server-028,Supermicro,R740xd,4,DEV,Web,Ubuntu 24.04
+CS-0029,Server-029,Supermicro,DL380,4,TEST,Web,Ubuntu 24.04
+CS-0030,Server-030,Lenovo,SYS-6049P,4,QA,App,Windows Server 2022
+CS-0031,Server-031,Cisco,SR650,2,TEST,Backup,Windows Server 2022
+CS-0032,Server-032,Supermicro,DL380,1,DEV,Backup,Windows Server 2022
+CS-0033,Server-033,HPE,SR650,1,TEST,ML,Windows Server 2022
+CS-0034,Server-034,Supermicro,R740xd,2,PROD,App,Ubuntu 24.04
+CS-0035,Server-035,Dell,SR650,1,QA,Web,Ubuntu 22.04
+CS-0036,Server-036,Supermicro,R740xd,1,QA,Database,Ubuntu 24.04
+CS-0037,Server-037,Cisco,SR650,4,PROD,Database,Windows Server 2022
+CS-0038,Server-038,Lenovo,SR650,4,PROD,Backup,RHEL 9
+CS-0039,Server-039,HPE,DL380,1,PROD,ML,RHEL 9
+CS-0040,Server-040,Dell,SR650,1,TEST,Web,RHEL 9
+CS-0041,Server-041,Lenovo,R640,2,TEST,Database,Windows Server 2022
+CS-0042,Server-042,HPE,R740xd,4,QA,Backup,Ubuntu 22.04
+CS-0043,Server-043,HPE,R740xd,1,QA,Backup,Ubuntu 22.04
+CS-0044,Server-044,Supermicro,SYS-6049P,1,DEV,ML,Ubuntu 24.04
+CS-0045,Server-045,Supermicro,DL380,4,PROD,ML,Ubuntu 24.04
+CS-0046,Server-046,Cisco,R740xd,1,QA,Database,Ubuntu 24.04
+CS-0047,Server-047,Supermicro,DL380,2,TEST,App,Windows Server 2022
+CS-0048,Server-048,Supermicro,R640,1,QA,Backup,Ubuntu 24.04
+CS-0049,Server-049,Cisco,DL380,4,TEST,Web,Windows Server 2022
+CS-0050,Server-050,Lenovo,R640,4,PROD,Backup,Windows Server 2022
+CS-0051,Server-051,Lenovo,R740xd,4,TEST,App,Ubuntu 22.04
+CS-0052,Server-052,Cisco,DL380,4,DEV,Web,RHEL 9
+CS-0053,Server-053,Lenovo,SR650,1,TEST,App,RHEL 9
+CS-0054,Server-054,Lenovo,DL380,4,QA,App,Ubuntu 22.04
+CS-0055,Server-055,HPE,SYS-6049P,2,TEST,App,Ubuntu 24.04
+CS-0056,Server-056,Supermicro,DL380,4,TEST,Web,Windows Server 2022
+CS-0057,Server-057,Dell,R740xd,1,QA,Backup,Ubuntu 24.04
+CS-0058,Server-058,Dell,SR650,1,TEST,Backup,RHEL 9
+CS-0059,Server-059,Supermicro,DL380,4,TEST,Backup,Windows Server 2022
+CS-0060,Server-060,Lenovo,R640,4,DEV,ML,RHEL 9
+CS-0061,Server-061,Cisco,SYS-6049P,2,DEV,Web,Windows Server 2022
+CS-0062,Server-062,Lenovo,SR650,1,DEV,Web,RHEL 9
+CS-0063,Server-063,Lenovo,SR650,1,PROD,App,Ubuntu 22.04
+CS-0064,Server-064,Supermicro,SR650,2,QA,Backup,Ubuntu 22.04
+CS-0065,Server-065,Supermicro,R640,2,QA,Database,RHEL 9
+CS-0066,Server-066,Lenovo,R740xd,2,QA,App,Ubuntu 24.04
+CS-0067,Server-067,Dell,DL380,4,TEST,Web,Windows Server 2022
+CS-0068,Server-068,Lenovo,R740xd,1,QA,Web,Ubuntu 22.04
+CS-0069,Server-069,Cisco,R640,1,TEST,App,Ubuntu 22.04
+CS-0070,Server-070,Cisco,R740xd,1,DEV,Backup,Ubuntu 22.04
+CS-0071,Server-071,HPE,DL380,1,PROD,Database,Ubuntu 22.04
+CS-0072,Server-072,HPE,SYS-6049P,2,DEV,Web,RHEL 9
+CS-0073,Server-073,HPE,R640,2,DEV,Backup,Ubuntu 24.04
+CS-0074,Server-074,Dell,R740xd,2,PROD,App,Windows Server 2022
+CS-0075,Server-075,Cisco,R640,4,PROD,ML,Windows Server 2022
+CS-0076,Server-076,Lenovo,SYS-6049P,4,PROD,ML,Ubuntu 22.04
+CS-0077,Server-077,Cisco,R640,4,TEST,ML,RHEL 9
+CS-0078,Server-078,Dell,SR650,2,QA,Web,Windows Server 2022
+CS-0079,Server-079,Supermicro,R640,1,TEST,Backup,Ubuntu 22.04
+CS-0080,Server-080,Dell,R740xd,2,TEST,ML,Ubuntu 24.04
+CS-0081,Server-081,Supermicro,SYS-6049P,4,QA,Web,RHEL 9
+CS-0082,Server-082,Cisco,R740xd,2,QA,App,Windows Server 2022
+CS-0083,Server-083,Lenovo,SR650,2,QA,Web,Ubuntu 24.04
+CS-0084,Server-084,Supermicro,DL380,4,TEST,Database,Ubuntu 22.04
+CS-0085,Server-085,Supermicro,R640,1,PROD,Web,Windows Server 2022
+CS-0086,Server-086,Dell,DL380,1,PROD,Backup,Ubuntu 24.04
+CS-0087,Server-087,Dell,SR650,2,QA,Web,Ubuntu 24.04
+CS-0088,Server-088,Cisco,DL380,2,PROD,Backup,Ubuntu 22.04
+CS-0089,Server-089,HPE,SR650,1,PROD,Database,Ubuntu 24.04
+CS-0090,Server-090,Dell,DL380,4,DEV,ML,RHEL 9
+CS-0091,Server-091,Cisco,DL380,1,DEV,Database,Ubuntu 24.04
+CS-0092,Server-092,Lenovo,DL380,1,DEV,App,Windows Server 2022
+CS-0093,Server-093,Dell,R740xd,4,PROD,Web,Ubuntu 22.04
+CS-0094,Server-094,Supermicro,SR650,2,TEST,App,Ubuntu 24.04
+CS-0095,Server-095,Lenovo,DL380,4,PROD,Web,Ubuntu 22.04
+CS-0096,Server-096,HPE,SYS-6049P,1,PROD,Database,Windows Server 2022
+CS-0097,Server-097,Supermicro,SR650,4,QA,ML,Ubuntu 24.04
+CS-0098,Server-098,HPE,SYS-6049P,1,TEST,ML,RHEL 9
+CS-0099,Server-099,Lenovo,SYS-6049P,2,TEST,Web,Ubuntu 22.04
+CS-0100,Server-100,Supermicro,SYS-6049P,1,PROD,App,Ubuntu 24.04
+CS-0101,Server-101,HPE,R740xd,2,TEST,Database,RHEL 9
+CS-0102,Server-102,Dell,SR650,4,QA,App,Ubuntu 22.04
+CS-0103,Server-103,Supermicro,SYS-6049P,4,DEV,Backup,Ubuntu 24.04
+CS-0104,Server-104,Dell,SR650,4,PROD,ML,RHEL 9
+CS-0105,Server-105,Supermicro,R640,2,QA,Backup,Windows Server 2022
+CS-0106,Server-106,Supermicro,DL380,1,QA,Web,Ubuntu 24.04
+CS-0107,Server-107,HPE,SYS-6049P,2,TEST,Web,Windows Server 2022
+CS-0108,Server-108,Dell,R740xd,2,QA,Backup,RHEL 9
+CS-0109,Server-109,Supermicro,DL380,4,TEST,App,Ubuntu 24.04
+CS-0110,Server-110,HPE,R640,4,PROD,Backup,Ubuntu 22.04
+CS-0111,Server-111,Lenovo,DL380,4,DEV,App,RHEL 9
+CS-0112,Server-112,HPE,DL380,1,DEV,Backup,Ubuntu 22.04
+CS-0113,Server-113,Dell,R740xd,4,QA,ML,Windows Server 2022
+CS-0114,Server-114,Cisco,SYS-6049P,2,TEST,App,Windows Server 2022
+CS-0115,Server-115,Dell,SR650,2,TEST,Database,RHEL 9
+CS-0116,Server-116,Lenovo,SYS-6049P,1,TEST,ML,Windows Server 2022
+CS-0117,Server-117,Dell,R640,2,TEST,Web,RHEL 9
+CS-0118,Server-118,Cisco,SYS-6049P,4,QA,ML,RHEL 9
+CS-0119,Server-119,Supermicro,SYS-6049P,4,DEV,Database,Windows Server 2022
+CS-0120,Server-120,Cisco,R740xd,1,QA,Web,Ubuntu 24.04
+CS-0121,Server-121,Dell,SYS-6049P,4,DEV,Web,Ubuntu 22.04
+CS-0122,Server-122,Supermicro,SR650,4,DEV,Database,Ubuntu 24.04
+CS-0123,Server-123,Lenovo,SR650,2,TEST,Backup,RHEL 9
+CS-0124,Server-124,Lenovo,R640,2,PROD,Backup,Windows Server 2022
+CS-0125,Server-125,Lenovo,DL380,4,DEV,Database,RHEL 9
+CS-0126,Server-126,Cisco,R740xd,2,TEST,ML,Ubuntu 22.04
+CS-0127,Server-127,Cisco,R640,2,QA,Database,Ubuntu 22.04
+CS-0128,Server-128,Cisco,R640,4,QA,Backup,Ubuntu 24.04
+CS-0129,Server-129,Dell,DL380,2,DEV,App,Ubuntu 24.04
+CS-0130,Server-130,Supermicro,R740xd,1,DEV,App,RHEL 9
+CS-0131,Server-131,Lenovo,R640,4,PROD,Database,Ubuntu 22.04
+CS-0132,Server-132,Cisco,SR650,1,DEV,App,Ubuntu 22.04
+CS-0133,Server-133,Supermicro,R640,2,TEST,App,Windows Server 2022
+CS-0134,Server-134,Cisco,DL380,4,QA,App,Ubuntu 22.04
+CS-0135,Server-135,Lenovo,SR650,1,TEST,Backup,Windows Server 2022
+CS-0136,Server-136,Supermicro,DL380,2,QA,App,Ubuntu 22.04
+CS-0137,Server-137,Cisco,R740xd,2,PROD,ML,Ubuntu 24.04
+CS-0138,Server-138,Cisco,R640,4,PROD,Database,RHEL 9
+CS-0139,Server-139,HPE,DL380,2,DEV,ML,RHEL 9
+CS-0140,Server-140,HPE,SR650,2,PROD,ML,RHEL 9
+CS-0141,Server-141,Supermicro,SYS-6049P,2,DEV,ML,RHEL 9
+CS-0142,Server-142,Lenovo,R740xd,1,TEST,Web,Ubuntu 24.04
+CS-0143,Server-143,HPE,R740xd,1,TEST,ML,Ubuntu 22.04
+CS-0144,Server-144,Supermicro,SR650,4,PROD,Web,RHEL 9
+CS-0145,Server-145,Lenovo,R740xd,1,QA,Web,Ubuntu 24.04
+CS-0146,Server-146,HPE,DL380,1,PROD,App,Windows Server 2022
+CS-0147,Server-147,Cisco,SR650,1,PROD,ML,RHEL 9
+CS-0148,Server-148,Cisco,SYS-6049P,1,DEV,Database,Windows Server 2022
+CS-0149,Server-149,Dell,SYS-6049P,2,DEV,Backup,Windows Server 2022
+CS-0150,Server-150,HPE,R640,4,TEST,Web,RHEL 9

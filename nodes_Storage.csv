@@ -1,0 +1,151 @@
+instance_id,name,vendor,model,st_type
+ST-0001,Storage-001,HPE,AFF-A250,SAN
+ST-0002,Storage-002,NetApp,Nimble,NAS
+ST-0003,Storage-003,Pure,FlashArray//X,SAN
+ST-0004,Storage-004,Pure,Unity XT,SAN
+ST-0005,Storage-005,DellEMC,Unity XT,SAN
+ST-0006,Storage-006,DellEMC,FlashArray//X,SAN
+ST-0007,Storage-007,HPE,Unity XT,NAS
+ST-0008,Storage-008,NetApp,FlashArray//X,NAS
+ST-0009,Storage-009,HPE,AFF-A250,NAS
+ST-0010,Storage-010,HPE,Unity XT,NAS
+ST-0011,Storage-011,HPE,FlashArray//X,NAS
+ST-0012,Storage-012,HPE,FlashArray//X,NAS
+ST-0013,Storage-013,Pure,FlashArray//X,NAS
+ST-0014,Storage-014,Pure,Nimble,SAN
+ST-0015,Storage-015,HPE,Nimble,SAN
+ST-0016,Storage-016,HPE,FlashArray//X,NAS
+ST-0017,Storage-017,Pure,Unity XT,SAN
+ST-0018,Storage-018,HPE,Unity XT,SAN
+ST-0019,Storage-019,Pure,AFF-A250,NAS
+ST-0020,Storage-020,HPE,AFF-A250,SAN
+ST-0021,Storage-021,Pure,FlashArray//X,NAS
+ST-0022,Storage-022,Pure,Unity XT,NAS
+ST-0023,Storage-023,NetApp,FlashArray//X,SAN
+ST-0024,Storage-024,NetApp,Nimble,SAN
+ST-0025,Storage-025,Pure,Nimble,SAN
+ST-0026,Storage-026,DellEMC,Unity XT,NAS
+ST-0027,Storage-027,HPE,Unity XT,NAS
+ST-0028,Storage-028,DellEMC,Unity XT,NAS
+ST-0029,Storage-029,HPE,AFF-A250,NAS
+ST-0030,Storage-030,DellEMC,FlashArray//X,NAS
+ST-0031,Storage-031,DellEMC,Nimble,SAN
+ST-0032,Storage-032,Pure,FlashArray//X,SAN
+ST-0033,Storage-033,DellEMC,Nimble,NAS
+ST-0034,Storage-034,Pure,FlashArray//X,NAS
+ST-0035,Storage-035,Pure,Nimble,SAN
+ST-0036,Storage-036,HPE,Unity XT,NAS
+ST-0037,Storage-037,HPE,Nimble,NAS
+ST-0038,Storage-038,Pure,Unity XT,SAN
+ST-0039,Storage-039,Pure,Nimble,SAN
+ST-0040,Storage-040,NetApp,AFF-A250,SAN
+ST-0041,Storage-041,NetApp,AFF-A250,NAS
+ST-0042,Storage-042,Pure,FlashArray//X,SAN
+ST-0043,Storage-043,Pure,AFF-A250,SAN
+ST-0044,Storage-044,HPE,Unity XT,SAN
+ST-0045,Storage-045,HPE,Nimble,SAN
+ST-0046,Storage-046,NetApp,Nimble,SAN
+ST-0047,Storage-047,NetApp,Unity XT,NAS
+ST-0048,Storage-048,NetApp,Nimble,SAN
+ST-0049,Storage-049,NetApp,AFF-A250,SAN
+ST-0050,Storage-050,Pure,FlashArray//X,NAS
+ST-0051,Storage-051,DellEMC,Unity XT,NAS
+ST-0052,Storage-052,NetApp,Unity XT,NAS
+ST-0053,Storage-053,HPE,FlashArray//X,SAN
+ST-0054,Storage-054,DellEMC,AFF-A250,SAN
+ST-0055,Storage-055,NetApp,Nimble,NAS
+ST-0056,Storage-056,HPE,Nimble,SAN
+ST-0057,Storage-057,NetApp,FlashArray//X,SAN
+ST-0058,Storage-058,HPE,Nimble,NAS
+ST-0059,Storage-059,NetApp,AFF-A250,SAN
+ST-0060,Storage-060,Pure,Nimble,NAS
+ST-0061,Storage-061,NetApp,AFF-A250,NAS
+ST-0062,Storage-062,NetApp,FlashArray//X,NAS
+ST-0063,Storage-063,NetApp,FlashArray//X,SAN
+ST-0064,Storage-064,HPE,AFF-A250,NAS
+ST-0065,Storage-065,Pure,FlashArray//X,NAS
+ST-0066,Storage-066,DellEMC,Nimble,SAN
+ST-0067,Storage-067,NetApp,Unity XT,SAN
+ST-0068,Storage-068,NetApp,Nimble,SAN
+ST-0069,Storage-069,NetApp,Unity XT,NAS
+ST-0070,Storage-070,DellEMC,AFF-A250,NAS
+ST-0071,Storage-071,HPE,Nimble,SAN
+ST-0072,Storage-072,DellEMC,Nimble,NAS
+ST-0073,Storage-073,Pure,Nimble,SAN
+ST-0074,Storage-074,DellEMC,FlashArray//X,SAN
+ST-0075,Storage-075,NetApp,Unity XT,SAN
+ST-0076,Storage-076,HPE,FlashArray//X,NAS
+ST-0077,Storage-077,DellEMC,Unity XT,SAN
+ST-0078,Storage-078,NetApp,AFF-A250,NAS
+ST-0079,Storage-079,HPE,Unity XT,NAS
+ST-0080,Storage-080,NetApp,FlashArray//X,SAN
+ST-0081,Storage-081,Pure,Nimble,NAS
+ST-0082,Storage-082,HPE,AFF-A250,SAN
+ST-0083,Storage-083,NetApp,Unity XT,SAN
+ST-0084,Storage-084,DellEMC,Nimble,SAN
+ST-0085,Storage-085,DellEMC,Nimble,NAS
+ST-0086,Storage-086,NetApp,FlashArray//X,SAN
+ST-0087,Storage-087,HPE,FlashArray//X,SAN
+ST-0088,Storage-088,DellEMC,Unity XT,NAS
+ST-0089,Storage-089,HPE,FlashArray//X,SAN
+ST-0090,Storage-090,Pure,Nimble,NAS
+ST-0091,Storage-091,HPE,Unity XT,NAS
+ST-0092,Storage-092,NetApp,Unity XT,NAS
+ST-0093,Storage-093,Pure,Nimble,SAN
+ST-0094,Storage-094,HPE,AFF-A250,SAN
+ST-0095,Storage-095,DellEMC,AFF-A250,NAS
+ST-0096,Storage-096,DellEMC,Nimble,NAS
+ST-0097,Storage-097,HPE,Unity XT,NAS
+ST-0098,Storage-098,Pure,Unity XT,NAS
+ST-0099,Storage-099,Pure,Nimble,NAS
+ST-0100,Storage-100,Pure,Nimble,NAS
+ST-0101,Storage-101,DellEMC,Nimble,SAN
+ST-0102,Storage-102,DellEMC,Nimble,NAS
+ST-0103,Storage-103,HPE,Unity XT,SAN
+ST-0104,Storage-104,Pure,FlashArray//X,SAN
+ST-0105,Storage-105,HPE,FlashArray//X,NAS
+ST-0106,Storage-106,DellEMC,AFF-A250,NAS
+ST-0107,Storage-107,HPE,FlashArray//X,NAS
+ST-0108,Storage-108,Pure,Unity XT,SAN
+ST-0109,Storage-109,HPE,Nimble,SAN
+ST-0110,Storage-110,HPE,Nimble,NAS
+ST-0111,Storage-111,HPE,AFF-A250,NAS
+ST-0112,Storage-112,NetApp,AFF-A250,SAN
+ST-0113,Storage-113,DellEMC,FlashArray//X,SAN
+ST-0114,Storage-114,HPE,Unity XT,NAS
+ST-0115,Storage-115,NetApp,AFF-A250,SAN
+ST-0116,Storage-116,DellEMC,FlashArray//X,SAN
+ST-0117,Storage-117,HPE,Unity XT,NAS
+ST-0118,Storage-118,HPE,FlashArray//X,NAS
+ST-0119,Storage-119,NetApp,Nimble,SAN
+ST-0120,Storage-120,DellEMC,Nimble,SAN
+ST-0121,Storage-121,NetApp,FlashArray//X,NAS
+ST-0122,Storage-122,DellEMC,Unity XT,NAS
+ST-0123,Storage-123,Pure,Nimble,NAS
+ST-0124,Storage-124,HPE,AFF-A250,NAS
+ST-0125,Storage-125,HPE,Unity XT,SAN
+ST-0126,Storage-126,DellEMC,AFF-A250,SAN
+ST-0127,Storage-127,NetApp,Unity XT,SAN
+ST-0128,Storage-128,Pure,FlashArray//X,SAN
+ST-0129,Storage-129,Pure,Unity XT,NAS
+ST-0130,Storage-130,HPE,FlashArray//X,NAS
+ST-0131,Storage-131,Pure,FlashArray//X,NAS
+ST-0132,Storage-132,HPE,AFF-A250,SAN
+ST-0133,Storage-133,HPE,Nimble,NAS
+ST-0134,Storage-134,NetApp,FlashArray//X,SAN
+ST-0135,Storage-135,DellEMC,AFF-A250,SAN
+ST-0136,Storage-136,Pure,Unity XT,NAS
+ST-0137,Storage-137,Pure,Nimble,SAN
+ST-0138,Storage-138,DellEMC,Nimble,NAS
+ST-0139,Storage-139,HPE,Nimble,SAN
+ST-0140,Storage-140,DellEMC,Unity XT,NAS
+ST-0141,Storage-141,Pure,Unity XT,SAN
+ST-0142,Storage-142,Pure,Unity XT,SAN
+ST-0143,Storage-143,Pure,Unity XT,SAN
+ST-0144,Storage-144,Pure,Unity XT,SAN
+ST-0145,Storage-145,HPE,Nimble,SAN
+ST-0146,Storage-146,HPE,Nimble,SAN
+ST-0147,Storage-147,HPE,FlashArray//X,SAN
+ST-0148,Storage-148,HPE,Unity XT,SAN
+ST-0149,Storage-149,Pure,Unity XT,NAS
+ST-0150,Storage-150,NetApp,Unity XT,SAN
