@@ -79,11 +79,11 @@ SET n.title = row.title, n.description = row.description, n.status = row.status,
 // Load Relationships
 // ==================
 LOAD CSV WITH HEADERS FROM 'file:///rel_LOCATED_IN.csv' AS row
-MATCH (a {instance_id: row.start_id}), (b:Location {instance_id: row.end_id})
+MATCH (a:Rack{instance_id: row.from_instance_id}), (b:Location {instance_id: row.to_instance_id})
 MERGE (a)-[:LOCATED_IN]->(b);
 
 LOAD CSV WITH HEADERS FROM 'file:///rel_INSTALLED_IN.csv' AS row
-MATCH (a {instance_id: row.start_id}), (b:Rack {instance_id: row.end_id})
+MATCH (a:ComputerSystem {instance_id: row.start_id}), (b:Rack {instance_id: row.end_id})
 MERGE (a)-[r:INSTALLED_IN]->(b)
 SET r.u_start = toInteger(row.u_start), r.u_end = toInteger(row.u_end), r.mount_side = row.mount_side;
 
