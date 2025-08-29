@@ -79,66 +79,66 @@ SET n.title = row.title, n.description = row.description, n.status = row.status,
 // Load Relationships
 // ==================
 LOAD CSV WITH HEADERS FROM 'https://raw.githubusercontent.com/pranay-graph/CMDB_GRAPH/refs/heads/main/rel_LOCATED_IN.csv' AS row
-MATCH (a:Rack{instance_id: row.from_instance_id}), (b:Location {instance_id: row.to_instance_id})
+MATCH (a:Rack{instance_id: row.row.from_instance_id}), (b:Location {instance_id: row.to_instance_id})
 MERGE (a)-[:LOCATED_IN]->(b);
 
 LOAD CSV WITH HEADERS FROM 'https://raw.githubusercontent.com/pranay-graph/CMDB_GRAPH/refs/heads/main/rel_INSTALLED_IN.csv' AS row
-MATCH (a:ComputerSystem {instance_id: row.start_id}), (b:Rack {instance_id: row.end_id})
+MATCH (a:ComputerSystem {instance_id: row.from_instance_id}), (b:Rack {instance_id: row.to_instance_id})
 MERGE (a)-[r:INSTALLED_IN]->(b)
 SET r.u_start = toInteger(row.u_start), r.u_end = toInteger(row.u_end), r.mount_side = row.mount_side;
 
 LOAD CSV WITH HEADERS FROM 'https://raw.githubusercontent.com/pranay-graph/CMDB_GRAPH/refs/heads/main/rel_HAS_IP.csv' AS row
-MATCH (cs:ComputerSystem {instance_id: row.start_id}), (ip:IPAddress {instance_id: row.end_id})
+MATCH (cs:ComputerSystem {instance_id: row.from_instance_id}), (ip:IPAddress {instance_id: row.to_instance_id})
 MERGE (cs)-[r:HAS_IP]->(ip)
 SET r.interface = row.interface;
 
 LOAD CSV WITH HEADERS FROM 'https://raw.githubusercontent.com/pranay-graph/CMDB_GRAPH/refs/heads/main/rel_IN_SUBNET.csv' AS row
-MATCH (ip:IPAddress {instance_id: row.start_id}), (sn:Subnet {instance_id: row.end_id})
+MATCH (ip:IPAddress {instance_id: row.from_instance_id}), (sn:Subnet {instance_id: row.to_instance_id})
 MERGE (ip)-[:IN_SUBNET]->(sn);
 
 LOAD CSV WITH HEADERS FROM 'https://raw.githubusercontent.com/pranay-graph/CMDB_GRAPH/refs/heads/main/rel_CONNECTS_TO.csv' AS row
-MATCH (cs:ComputerSystem {instance_id: row.start_id}), (nd:NetworkDevice {instance_id: row.end_id})
+MATCH (cs:ComputerSystem {instance_id: row.from_instance_id}), (nd:NetworkDevice {instance_id: row.to_instance_id})
 MERGE (cs)-[r:CONNECTS_TO]->(nd)
 SET r.port_from = row.port_from, r.port_to = row.port_to, r.speed_gbps = toInteger(row.speed_gbps);
 
 LOAD CSV WITH HEADERS FROM 'https://raw.githubusercontent.com/pranay-graph/CMDB_GRAPH/refs/heads/main/rel_RUNS_APP.csv' AS row
-MATCH (cs:ComputerSystem {instance_id: row.start_id}), (app:Application {instance_id: row.end_id})
+MATCH (cs:ComputerSystem {instance_id: row.from_instance_id}), (app:Application {instance_id: row.to_instance_id})
 MERGE (cs)-[r:RUNS_APP]->(app)
 SET r.since = date(row.since);
 
 LOAD CSV WITH HEADERS FROM 'https://raw.githubusercontent.com/pranay-graph/CMDB_GRAPH/refs/heads/main/rel_HOSTS_DB.csv' AS row
-MATCH (cs:ComputerSystem {instance_id: row.start_id}), (db:Database {instance_id: row.end_id})
+MATCH (cs:ComputerSystem {instance_id: row.from_instance_id}), (db:Database {instance_id: row.to_instance_id})
 MERGE (cs)-[r:HOSTS_DB]->(db)
 SET r.since = date(row.since);
 
 LOAD CSV WITH HEADERS FROM 'https://raw.githubusercontent.com/pranay-graph/CMDB_GRAPH/refs/heads/main/rel_DEPENDS_ON.csv' AS row
-MATCH (app:Application {instance_id: row.start_id}), (db:Database {instance_id: row.end_id})
+MATCH (app:Application {instance_id: row.from_instance_id}), (db:Database {instance_id: row.to_instance_id})
 MERGE (app)-[r:DEPENDS_ON]->(db)
 SET r.dependency = row.dependency;
 
 LOAD CSV WITH HEADERS FROM 'https://raw.githubusercontent.com/pranay-graph/CMDB_GRAPH/refs/heads/main/rel_PART_OF_CLUSTER.csv' AS row
-MATCH (cs:ComputerSystem {instance_id: row.start_id}), (cl:Cluster {instance_id: row.end_id})
+MATCH (cs:ComputerSystem {instance_id: row.from_instance_id}), (cl:Cluster {instance_id: row.to_instance_id})
 MERGE (cs)-[r:PART_OF_CLUSTER]->(cl)
 SET r.role = row.role;
 
 LOAD CSV WITH HEADERS FROM 'https://raw.githubusercontent.com/pranay-graph/CMDB_GRAPH/refs/heads/main/rel_BACKED_UP_BY.csv' AS row
-MATCH (cs:ComputerSystem {instance_id: row.start_id}), (st:Storage {instance_id: row.end_id})
+MATCH (cs:ComputerSystem {instance_id: row.from_instance_id}), (st:Storage {instance_id: row.to_instance_id})
 MERGE (cs)-[r:BACKED_UP_BY]->(st)
 SET r.policy = row.policy, r.rpo_minutes = toInteger(row.rpo_minutes);
 
 LOAD CSV WITH HEADERS FROM 'https://raw.githubusercontent.com/pranay-graph/CMDB_GRAPH/refs/heads/main/rel_ATTACHED_TO.csv' AS row
-MATCH (doc:Document {instance_id: row.start_id}), (ci {instance_id: row.end_id})
+MATCH (doc:Document {instance_id: row.from_instance_id}), (ci {instance_id: row.to_instance_id})
 MERGE (doc)-[r:ATTACHED_TO]->(ci)
 SET r.purpose = row.purpose;
 
 LOAD CSV WITH HEADERS FROM 'https://raw.githubusercontent.com/pranay-graph/CMDB_GRAPH/refs/heads/main/rel_INCIDENT_ON.csv' AS row
-MATCH (i:Incident {incident_id: row.start_id}), (ci {instance_id: row.end_id})
+MATCH (i:Incident {incident_id: row.from_instance_id}), (ci {instance_id: row.to_instance_id})
 MERGE (i)-[:INCIDENT_ON]->(ci);
 
 LOAD CSV WITH HEADERS FROM 'https://raw.githubusercontent.com/pranay-graph/CMDB_GRAPH/refs/heads/main/rel_CHANGE_AFFECTS.csv' AS row
-MATCH (c:ChangeRequest {change_id: row.start_id}), (ci {instance_id: row.end_id})
+MATCH (c:ChangeRequest {change_id: row.from_instance_id}), (ci {instance_id: row.to_instance_id})
 MERGE (c)-[:CHANGE_AFFECTS]->(ci);
 
 LOAD CSV WITH HEADERS FROM 'https://raw.githubusercontent.com/pranay-graph/CMDB_GRAPH/refs/heads/main/rel_CHANGE_RELATES_TO.csv' AS row
-MATCH (c:ChangeRequest {change_id: row.start_id}), (i:Incident {incident_id: row.end_id})
+MATCH (c:ChangeRequest {change_id: row.from_instance_id}), (i:Incident {incident_id: row.to_instance_id})
 MERGE (c)-[:CHANGE_RELATES_TO]->(i);
